@@ -30,6 +30,7 @@ def about(request):
         button it will count the amounts of words and also
         let you know how many times each unique word is used
         throughout the text!
+        Hope you find this useful!!
         Enjoy!!
         /Mattias
         """
