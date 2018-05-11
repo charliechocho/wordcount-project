@@ -1,0 +1,14 @@
+<h1>There are {{ amt_word }} words in your text!</h1>
+
+<a href='{% url 'homes' %}'>Start Again</a>
+
+<h1> Here's your text:</h1>
+{{ fulltext }}
+
+<h1>The number of times each word appear in the text: </h1>
+
+{% for word, count in word_cnt %}
+{{ word }} - {{ count }}
+<br />
+
+{% endfor %}
